@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="servicio.css">
+    <title>Planes y Servicios</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="logo">
+            <img src="/imagenes/PAZ.png" alt="Logo">
+        </div>
+        <a href="#" class="active">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contáctenos</a>
+        <a href="#">Planes/Servicios</a>
+    </div>
+
+    <div class="main-content">
+        <!-- Aquí iría el contenido principal de la página -->
+    </div>
+
+    <!-- Sección de Planes y Servicios -->
+    <section class="content-section">
+        <div class="services-img"></div>
+        <div class="services-text">
+            <h2>Planes y Servicios</h2>
+            <p>Ofrecemos una variedad de planes diseñados para satisfacer tus necesidades y brindarte el mejor apoyo en momentos difíciles. Cada uno de nuestros servicios está adaptado a las diferentes situaciones, garantizando profesionalismo y respeto en todo momento.</p>
+
+            <ul>
+                <li><strong>Plan Básico:</strong> Servicios esenciales para quienes buscan apoyo básico en momentos difíciles. Incluye asistencia telefónica y coordinación básica de servicios.</li>
+                <li><strong>Plan Avanzado:</strong> Servicios completos que incluyen asesoría personalizada y atención las 24 horas del día. Además, ofrecemos servicios de transporte y otros beneficios.</li>
+                <li><strong>Plan Premium:</strong> La mejor opción para quienes desean un servicio integral. Incluye todos los beneficios de los planes anteriores y acceso exclusivo a servicios premium, como traslados internacionales y atención VIP.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section class="content-section">
+
+        <div class="terms-text">
+            <h2>Términos y Condiciones</h2>
+            <p>Al utilizar nuestros servicios, aceptas cumplir con los siguientes términos y condiciones. Te recomendamos leerlos cuidadosamente para entender los derechos y responsabilidades que tienes al usar este sitio web.</p>
+            <ul>
+                <li><span class="icon">&#x2705;</span> <strong>Uso del sitio:</strong> El acceso y uso de este sitio web está sujeto a las leyes aplicables.</li>
+                <li><span class="icon">&#x1F4D6;</span> <strong>Propiedad intelectual:</strong> Todos los contenidos, como texto, imágenes, logos y gráficos, son propiedad exclusiva de nuestra empresa y están protegidos por derechos de autor.</li>
+                <li><span class="icon">&#x1F6A7;</span> <strong>Responsabilidad:</strong> No nos hacemos responsables por daños derivados del uso indebido de nuestro sitio web o la interrupción del servicio.</li>
+                <li><span class="icon">&#x1F4C4;</span> <strong>Modificaciones:</strong> Nos reservamos el derecho de modificar los términos y condiciones en cualquier momento sin previo aviso.</li>
+                <li><span class="icon">&#x1F512;</span> <strong>Privacidad:</strong> Tratamos tu información personal con la mayor confidencialidad y conforme a nuestra política de privacidad.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="https://wa.me/1234567890" class="whatsapp-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1280px-WhatsApp.svg.png" alt="WhatsApp">
+        </a>
+    </footer>
+</body>
+</html>
