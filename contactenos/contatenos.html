@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactenos.css">
+    <title>Contáctenos</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <div class="logo">
+                <img src="/imagenes/PAZ.png" alt="Logo">
+            </div>
+            <a href="index.html" class="active">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contactenos.html">Contáctenos</a>
+            <a href="servicios.html">Planes/Servicios</a>
+        </nav>
+    </header>
+
+    <section class="contact-container">
+        <div class="contact-section">
+            <h2>Contáctenos</h2>
+            <p>Si tienes alguna pregunta o comentario, por favor, completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+            
+            <form action="conect.php" method="POST">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea name="mensaje" placeholder="Tu mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h3>Ubícanos</h3>
+            <p>Visítanos en nuestra oficina o contáctanos a través de nuestras redes sociales:</p>
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.6456815295525!2d-122.08424908420695!3d37.421999779825275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb6ab3c5f6f9b%3A0x2b7a83be4fc45ccf!2sGoogleplex!5e0!3m2!1ses!2sus!4v1634503672392!5m2!1ses!2sus" 
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="social-media">
+                <h4>Redes Sociales</h4>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" width="40">
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" width="40">
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="Twitter" width="40">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-icon">
+            <img src="/imagenes/whats.png" alt="WhatsApp">
+        </a>
+    </footer>
+</body>
+</html>
+
